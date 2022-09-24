@@ -1,6 +1,16 @@
 import React from 'react';
 import './Header.css'
 
+/**
+ * It returns a div with a class of min-h-full, which contains a nav with a class of bg-gray-800, which
+ * contains a div with a class of mx-auto max-w-7xl px-4 sm:px-6 lg:px-8, which contains a div with a
+ * class of flex h-16 items-center justify-between, which contains two divs, one with a class of flex
+ * items-center and the other with a class of hidden md:block, which contains a div with a class of
+ * ml-4 flex items-center md:ml-6, which contains a button with a class of rounded-full bg-gray-800 p-1
+ * text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2
+ * focus:ring-offset-gray-800, which
+ * @returns A React component.
+ */
 const Header = () => {
     return (
         <div className="min-h-full">

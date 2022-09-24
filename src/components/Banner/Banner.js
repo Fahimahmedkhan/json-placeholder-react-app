@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * It returns a div with a class of 'w-full h-96 bg-blue-800 text-white text-center flex flex-col
+ * space-y-10' and contains three h1 tags, two h2 tags, and one h3 tag.
+ * @returns A React component.
+ */
 const Banner = () => {
     return (
         <div className='w-full h-96 bg-blue-800 text-white text-center flex flex-col space-y-10'>
